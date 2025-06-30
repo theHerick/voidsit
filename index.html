@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VOID</title>
 
-  <!-- Fonte minimalista (Montserrat) -->
+  <!-- Fonte estilosa e minimalista -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
       padding: 0;
-      background-color: #000;
-      color: #ccc;
+      background-color: #0a0a0a;
+      color: #e0e0e0;
       font-family: 'Montserrat', sans-serif;
       display: flex;
       flex-direction: column;
@@ -24,38 +26,63 @@
     }
 
     h1 {
-      font-size: 5em;
-      margin-bottom: 60px;
+      font-size: 4.5em;
       color: #a259ff;
-      letter-spacing: 8px;
-      font-weight: 700;
+      letter-spacing: 10px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.1em;
+      color: #aaa;
+      margin-bottom: 50px;
     }
 
     .button {
       background-color: #1a001f;
       color: #a259ff;
       border: 2px solid #a259ff;
-      padding: 14px 28px;
+      padding: 14px 32px;
       margin: 10px;
       font-size: 1.1em;
       cursor: pointer;
       transition: all 0.3s ease;
-      border-radius: 6px;
+      border-radius: 8px;
     }
 
     .button:hover {
       background-color: #a259ff;
       color: #000;
     }
+
+    .info {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .compatibility {
+      margin-top: 8px;
+      font-size: 0.95em;
+      color: #bbb;
+    }
   </style>
 </head>
 <body>
 
   <h1>VOID</h1>
+  <div class="subtitle">Sistemas inteligentes. Um novo jeito de automatizar.</div>
 
   <button class="button">Instalar Void Pro</button>
-  <button class="button">Instalar Void Online</button>
+  <button class="button">Marketplace</button>
   <button class="button">Comprar Licença</button>
+
+  <div class="info">
+    Compatível com:
+    <div class="compatibility">
+      🪟 Windows
+    </div>
+  </div>
 
 </body>
 </html>
